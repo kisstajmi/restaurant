@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c657b4b7-535c-4a4c-bf22-c324e3f96225" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\GoDaNiMaL\RubymineProjects\lol\restaurant\public\index.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20121207085154_add_address_to_places.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/places_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/places_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/place.rb" afterPath="$PROJECT_DIR$/app/models/place.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/places/index.html.erb" afterPath="$PROJECT_DIR$/app/views/places/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/places/show.html.erb" afterPath="$PROJECT_DIR$/app/views/places/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="restaurant.iws" />
@@ -26,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.5377129">
               <folding />
             </state>
           </provider>
@@ -44,11 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="places_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="places_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04136253">
-              <folding />
+            <state line="0" column="59" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1354871068978" expanded="true" signature="177:285" placeholder="do ... end" />
+                <marker date="1354871068978" expanded="true" signature="285:309" placeholder="{ ... }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,9 +67,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/places_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -420,13 +426,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
@@ -436,7 +435,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.04136253">
+        <state line="0" column="59" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1354871068978" expanded="true" signature="177:285" placeholder="do ... end" />
+            <marker date="1354871068978" expanded="true" signature="285:309" placeholder="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.5377129">
           <folding />
         </state>
       </provider>
